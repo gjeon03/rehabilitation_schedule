@@ -1,0 +1,21 @@
+{
+	"result" : [
+		{
+			"id": "1",
+			"title": "재활 분류1",
+			"complete": false,
+			"user": {
+				"gender" : "남자",
+				"age" : "30",
+				"disease" : "test",
+				"subdivision" : "test",
+				"when" : "test",
+				"period" : "test"
+			},
+			"progress": {
+				"week" : 1,
+				"day" : 2
+			}
+		}
+	]
+}
