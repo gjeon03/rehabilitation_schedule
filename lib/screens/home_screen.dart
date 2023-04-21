@@ -81,9 +81,9 @@ class _HomeScreenState extends State<HomeScreen> {
       userData = data.map((e) => UserData.fromJson(jsonDecode(e))).toList();
     }
     setState(() {});
-    for (var item in userData) {
-      print("test:: ${item.id}, ${item.title}, ${item.complete}");
-    }
+    // for (var item in userData) {
+    //   print("test:: ${item.id}, ${item.title}, ${item.complete}");
+    // }
   }
 
   @override
